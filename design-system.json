@@ -1,0 +1,20 @@
+{
+  "product": "Zorka",
+  "version": "1.0.0",
+  "description": "Official Zorka Design System — dark-first, strong typography, Zorka red as the single brand accent.",
+  "components": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/components/uikit-ai.json",
+  "tokens": {
+    "colors": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/tokens/colors.json",
+    "typography": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/tokens/typography.json",
+    "spacing": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/tokens/spacing.json",
+    "radius": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/tokens/radius.json",
+    "shadows": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/tokens/shadows.json"
+  },
+  "brandPrinciples": [
+    "Dark-first: main background is color.surface.dark (#0E1016) with light text; cards use color.surface.dark2 (#161A22) with a subtle 1px rgba(255,255,255,0.12) border.",
+    "One accent only: Zorka red (color.primary.red) is the single brand accent — used for CTAs, highlighted words, the kicker dot and thick underlines. Green/blue/yellow are functional (success/info/warning), never decorative.",
+    "Strong typography: headings weight 700–800 with tight negative letter-spacing; kickers/eyebrows uppercase with 0.28em letter-spacing preceded by a small red dot.",
+    "Signature details: subtle background grid texture (1px lines, rgba(255,255,255,0.05), 72px cells on dark), pill chips with thin borders, screenshots framed with radius 2xl + deep 'hero' shadow.",
+    "Avoid pure black (#000000) in large areas; avoid gradients as the main visual language — Zorka is flat, high-contrast and typographic."
+  ]
+}

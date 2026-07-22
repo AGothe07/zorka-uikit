@@ -1,0 +1,93 @@
+{
+  "$description": "Typography design tokens — Zorka. Inter type scale (Display · Title · Body · Label · Kicker · Details). Zorka's voice is strong typography: headings in weight 700/800 with tight (negative) letter-spacing; kickers/eyebrows in uppercase with very wide letter-spacing.",
+  "fontFamily": {
+    "sans": { "value": "Inter, 'Segoe UI', system-ui, -apple-system, sans-serif", "type": "fontFamily" }
+  },
+  "fontWeight": {
+    "regular": { "value": 400, "type": "fontWeight" },
+    "medium": { "value": 500, "type": "fontWeight" },
+    "semibold": { "value": 600, "type": "fontWeight" },
+    "bold": { "value": 700, "type": "fontWeight" },
+    "extrabold": { "value": 800, "type": "fontWeight" }
+  },
+  "typography": {
+    "display": {
+      "$description": "Hero/landing headings — the signature Zorka look. Always bold or extrabold, tight negative tracking. Highlighted words use color.primary.red.400 or a thick red underline (text-decoration-thickness ~0.09em, offset ~0.12em, color.primary.red.500).",
+      "large": {
+        "extrabold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "64px", "lineHeight": "1.05", "letterSpacing": "-0.03em", "fontWeight": 800 } }
+      },
+      "medium": {
+        "extrabold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "48px", "lineHeight": "1.06", "letterSpacing": "-0.02em", "fontWeight": 800 } },
+        "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "48px", "lineHeight": "1.06", "letterSpacing": "-0.02em", "fontWeight": 700 } }
+      },
+      "small": {
+        "extrabold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "36px", "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": 800 } },
+        "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "36px", "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": 700 } }
+      }
+    },
+    "kicker": {
+      "$description": "Eyebrow/overline labels — uppercase, very wide tracking, usually preceded by a small red dot (border-radius 50%, color.primary.red.500). A Zorka signature element.",
+      "default": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "12px", "lineHeight": "16px", "letterSpacing": "0.28em", "fontWeight": 600, "textTransform": "uppercase" } },
+      "large": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "14px", "lineHeight": "20px", "letterSpacing": "0.28em", "fontWeight": 600, "textTransform": "uppercase" } }
+    },
+    "title": {
+      "large": {
+        "regular": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "22px", "lineHeight": "28px", "letterSpacing": "0px", "fontWeight": 400 } },
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "22px", "lineHeight": "28px", "letterSpacing": "0px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "22px", "lineHeight": "28px", "letterSpacing": "0px", "fontWeight": 600 } },
+        "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "22px", "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": 700 } }
+      },
+      "medium": {
+        "regular": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "18px", "lineHeight": "24px", "letterSpacing": "0px", "fontWeight": 400 } },
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "18px", "lineHeight": "24px", "letterSpacing": "0px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "18px", "lineHeight": "24px", "letterSpacing": "0px", "fontWeight": 600 } },
+        "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "18px", "lineHeight": "24px", "letterSpacing": "0px", "fontWeight": 700 } }
+      },
+      "small": {
+        "regular": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "16px", "lineHeight": "24px", "letterSpacing": "0.15px", "fontWeight": 400 } },
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "16px", "lineHeight": "24px", "letterSpacing": "0.15px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "16px", "lineHeight": "24px", "letterSpacing": "0.15px", "fontWeight": 600 } },
+        "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "16px", "lineHeight": "24px", "letterSpacing": "0.15px", "fontWeight": 700 } }
+      }
+    },
+    "body": {
+      "large": {
+        "regular": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "16px", "lineHeight": "24px", "letterSpacing": "0.5px", "fontWeight": 400 } },
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "16px", "lineHeight": "24px", "letterSpacing": "0.5px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "16px", "lineHeight": "24px", "letterSpacing": "0.5px", "fontWeight": 600 } }
+      },
+      "medium": {
+        "regular": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "14px", "lineHeight": "20px", "letterSpacing": "0.25px", "fontWeight": 400 } },
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "14px", "lineHeight": "20px", "letterSpacing": "0.25px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "14px", "lineHeight": "20px", "letterSpacing": "0.25px", "fontWeight": 600 } }
+      },
+      "small": {
+        "regular": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "12px", "lineHeight": "16px", "letterSpacing": "0.4px", "fontWeight": 400 } },
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "12px", "lineHeight": "16px", "letterSpacing": "0.4px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "12px", "lineHeight": "16px", "letterSpacing": "0.4px", "fontWeight": 600 } }
+      }
+    },
+    "label": {
+      "large": {
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "14px", "lineHeight": "20px", "letterSpacing": "0.1px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "14px", "lineHeight": "20px", "letterSpacing": "0.1px", "fontWeight": 600 } },
+        "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "14px", "lineHeight": "20px", "letterSpacing": "0.1px", "fontWeight": 700 } }
+      },
+      "medium": {
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "12px", "lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "12px", "lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": 600 } },
+        "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "12px", "lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": 700 } }
+      },
+      "small": {
+        "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "11px", "lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": 500 } },
+        "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "11px", "lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": 600 } },
+        "extrabold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "11px", "lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": 800 } }
+      }
+    },
+    "details": {
+      "medium": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "8px", "lineHeight": "12px", "letterSpacing": "0.4px", "fontWeight": 500 } },
+      "semibold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "8px", "lineHeight": "12px", "letterSpacing": "0.4px", "fontWeight": 600 } },
+      "bold": { "type": "typography", "value": { "fontFamily": "Inter, 'Segoe UI', system-ui, sans-serif", "fontSize": "8px", "lineHeight": "12px", "letterSpacing": "0.4px", "fontWeight": 700 } }
+    }
+  }
+}

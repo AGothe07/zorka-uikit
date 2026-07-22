@@ -1,0 +1,94 @@
+{
+  "$description": "Color design tokens — Zorka. Scales run 100 (lightest) → 700 (darkest); the 'default' step is the principal color of each palette. Zorka is dark-first: prefer surface.dark as the main background with light text; light surfaces are the exception, not the rule.",
+  "color": {
+    "primary": {
+      "$description": "Cores Padrão Zorka — used across the whole system (Dashboard, Landing, Criativos).",
+      "red": {
+        "$description": "Vermelho Zorka (Principal) — hsl(0 78% 52%). Step 400 is the 'soft' red used for highlighted words in headings.",
+        "100": { "$type": "color", "$value": "#FCE9E9" },
+        "200": { "$type": "color", "$value": "#F7B4B4" },
+        "300": { "$type": "color", "$value": "#F17C7C" },
+        "400": { "$type": "color", "$value": "#EE3B3B" },
+        "500": { "$type": "color", "$value": "#E42525" },
+        "600": { "$type": "color", "$value": "#B01B1B" },
+        "700": { "$type": "color", "$value": "#7A0F0F" },
+        "default": { "$type": "color", "$value": "{color.primary.red.500}" }
+      },
+      "green": {
+        "$description": "Verde — functional (success, positive values).",
+        "100": { "$type": "color", "$value": "#EBFAF8" },
+        "200": { "$type": "color", "$value": "#BCE3DE" },
+        "300": { "$type": "color", "$value": "#89D9CF" },
+        "400": { "$type": "color", "$value": "#59CFC1" },
+        "500": { "$type": "color", "$value": "#2EC9B7" },
+        "600": { "$type": "color", "$value": "#1D9688" },
+        "700": { "$type": "color", "$value": "#0F635A" },
+        "default": { "$type": "color", "$value": "{color.primary.green.500}" }
+      },
+      "blue": {
+        "$description": "Azul — functional (info, links, neutral highlights).",
+        "100": { "$type": "color", "$value": "#E6F7FF" },
+        "200": { "$type": "color", "$value": "#99DFFF" },
+        "300": { "$type": "color", "$value": "#66CFFF" },
+        "400": { "$type": "color", "$value": "#33BFFF" },
+        "500": { "$type": "color", "$value": "#01AFFF" },
+        "600": { "$type": "color", "$value": "#018CCC" },
+        "700": { "$type": "color", "$value": "#016999" },
+        "default": { "$type": "color", "$value": "{color.primary.blue.500}" }
+      },
+      "yellow": {
+        "$description": "Amarelo — functional (warning, pending states).",
+        "100": { "$type": "color", "$value": "#FFF8EB" },
+        "200": { "$type": "color", "$value": "#FFEBC8" },
+        "300": { "$type": "color", "$value": "#FFD894" },
+        "400": { "$type": "color", "$value": "#FFC561" },
+        "500": { "$type": "color", "$value": "#FFB32F" },
+        "600": { "$type": "color", "$value": "#CC8C1D" },
+        "700": { "$type": "color", "$value": "#99670F" },
+        "default": { "$type": "color", "$value": "{color.primary.yellow.500}" }
+      }
+    },
+    "tertiary": {
+      "$description": "Cores Terciárias — used only in details or where a color outside the standard palette is needed.",
+      "orange": {
+        "$description": "Laranja",
+        "100": { "$type": "color", "$value": "#FFF2EA" },
+        "200": { "$type": "color", "$value": "#FFD8BD" },
+        "300": { "$type": "color", "$value": "#FFB98A" },
+        "400": { "$type": "color", "$value": "#FF9B57" },
+        "500": { "$type": "color", "$value": "#FF7D24" },
+        "600": { "$type": "color", "$value": "#CC5F14" },
+        "700": { "$type": "color", "$value": "#994409" },
+        "default": { "$type": "color", "$value": "{color.tertiary.orange.500}" }
+      },
+      "green2": {
+        "$description": "Verde 2",
+        "100": { "$type": "color", "$value": "#EAF7EE" },
+        "200": { "$type": "color", "$value": "#A5C7AF" },
+        "300": { "$type": "color", "$value": "#77BD8B" },
+        "400": { "$type": "color", "$value": "#4DB26A" },
+        "500": { "$type": "color", "$value": "#27A84C" },
+        "600": { "$type": "color", "$value": "#167532" },
+        "700": { "$type": "color", "$value": "#0A421A" },
+        "default": { "$type": "color", "$value": "{color.tertiary.green2.500}" }
+      }
+    },
+    "neutral": {
+      "$description": "Cores Neutras — Zorka neutrals lean cool (blue-gray). Avoid pure black (#000000) in large areas; use surface.dark instead.",
+      "white": { "$type": "color", "$value": "#FFFFFF" },
+      "50": { "$type": "color", "$value": "#F6F7F9" },
+      "100": { "$type": "color", "$value": "#E9EBEF" },
+      "200": { "$type": "color", "$value": "#C3C8D1" },
+      "300": { "$type": "color", "$value": "#9AA1AD" },
+      "400": { "$type": "color", "$value": "#6B7280" },
+      "500": { "$type": "color", "$value": "#16181D" },
+      "black": { "$type": "color", "$value": "#000000" }
+    },
+    "surface": {
+      "$description": "Zorka surfaces — dark-first. 'dark' is the main page background — hsl(222 24% 7%); 'dark2' is for cards and raised elements on dark — hsl(222 22% 11%); 'light' for light-mode sections.",
+      "dark": { "$type": "color", "$value": "#0E1016" },
+      "dark2": { "$type": "color", "$value": "#161A22" },
+      "light": { "$type": "color", "$value": "#FFFFFF" }
+    }
+  }
+}
