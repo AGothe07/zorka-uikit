@@ -1,5 +1,5 @@
 {
-  "$description": "Shadow design tokens — Zorka. Elevation scale from 01 (lowest) to 05 (highest). Use 02 as the default for most items; use 01 for small items and components requiring emphasis; use the larger ones (03–05) for bigger components. On dark surfaces shadows read weaker — pair them with a subtle 1px light border (rgba(255,255,255,0.12)) to define edges.",
+  "$description": "Shadow design tokens — Takeat. Elevation scale from 01 (lowest) to 05 (highest). Use 02 as the default for most items; use 01 for small items and components requiring emphasis; use the larger ones (03–05) for bigger components.",
   "shadow": {
     "01": {
       "$type": "shadow",
@@ -39,13 +39,6 @@
       "$value": [
         { "color": "rgba(0, 0, 0, 0.14)", "offsetX": "0px", "offsetY": "10px", "blur": "25px", "spread": "0px" },
         { "color": "rgba(0, 0, 0, 0.2)", "offsetX": "0px", "offsetY": "0px", "blur": "8px", "spread": "0px" }
-      ]
-    },
-    "hero": {
-      "$type": "shadow",
-      "$description": "Zorka media/screenshot frames on dark backgrounds — deep, dramatic drop.",
-      "$value": [
-        { "color": "rgba(0, 0, 0, 0.5)", "offsetX": "0px", "offsetY": "40px", "blur": "80px", "spread": "0px" }
       ]
     }
   }

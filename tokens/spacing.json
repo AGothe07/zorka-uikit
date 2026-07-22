@@ -1,5 +1,5 @@
 {
-  "$description": "Spacing design tokens — Zorka. Apply spacing from the inside out, going from the smallest to the largest value. Use 2px and 4px for smaller components; 8px and 12px as the defaults for most cards; 16px and up generally for the padding of modals and other large components.",
+  "$description": "Spacing design tokens — Takeat. Apply spacing from the inside out, going from the smallest to the largest value. Use 2px and 4px for smaller components; 8px and 12px as the defaults for most cards; 16px and up generally for the padding of modals and other large components.",
   "spacing": {
     "0.5": { "$type": "dimension", "$value": "2px", "$description": "Smaller components — tight inner spacing." },
     "1": { "$type": "dimension", "$value": "4px", "$description": "Smaller components — fine details." },

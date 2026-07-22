@@ -1,5 +1,5 @@
 {
-  "$description": "Border radius design tokens — Zorka. Rounds element corners to soften the UI and improve usability.",
+  "$description": "Border radius design tokens — Takeat. Rounds element corners to soften the UI and improve usability.",
   "borderRadius": {
     "sm": {
       "$type": "dimension",
@@ -20,16 +20,6 @@
       "$type": "dimension",
       "$value": "16px",
       "$description": "Large cards, modals, etc."
-    },
-    "2xl": {
-      "$type": "dimension",
-      "$value": "24px",
-      "$description": "Screenshots, media frames and hero cards — the Zorka 'shot' frame."
-    },
-    "pill": {
-      "$type": "dimension",
-      "$value": "999px",
-      "$description": "Chips and pill badges — a Zorka signature element (thin border, wide padding)."
     }
   }
 }

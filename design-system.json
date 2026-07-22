@@ -1,7 +1,7 @@
 {
   "product": "Zorka",
-  "version": "1.1.0",
-  "description": "Official Zorka Design System — dark-first, strong typography, Zorka red as the single brand accent.",
+  "version": "2.0.0",
+  "description": "Zorka Design System — since v2.0.0 the visual identity mirrors the official Takeat Design System (Poppins, Takeat red #C8131B, pure neutrals, light-first). Tokens below are verbatim copies of https://raw.githubusercontent.com/takeat-design/UIKIT/main/design-system.json",
   "components": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/components/uikit-ai.json",
   "tokens": {
     "colors": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/tokens/colors.json",
@@ -11,10 +11,10 @@
     "shadows": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/tokens/shadows.json"
   },
   "brandPrinciples": [
-    "Dark-first: main background is color.surface.dark (#0E1016) with light text; cards use color.surface.dark2 (#161A22) with a subtle 1px rgba(255,255,255,0.12) border.",
-    "One accent only: Zorka red (color.primary.red) is the single brand accent — used for CTAs, highlighted words, the kicker dot and thick underlines. Green/blue/yellow are functional (success/info/warning), never decorative.",
-    "Strong typography: headings weight 700–800 with tight negative letter-spacing; kickers/eyebrows uppercase with 0.28em letter-spacing preceded by a small red dot.",
-    "Signature details: subtle background grid texture (1px lines, rgba(255,255,255,0.05), 72px cells on dark), pill chips with thin borders, screenshots framed with radius 2xl + deep 'hero' shadow.",
-    "Avoid pure black (#000000) in large areas; avoid gradients as the main visual language — Zorka is flat, high-contrast and typographic."
+    "Light-first: main background is white (#FFFFFF) with dark text (neutral.500 #222222); dark mode is derived from neutral.500 — avoid pure black (#000000) in large areas.",
+    "One accent only: Takeat red (color.primary.red.500 #C8131B) is the single brand accent — used for CTAs, active states and highlights. Green/blue/yellow are functional (success/info/warning), never decorative.",
+    "Typography: Poppins in all weights (400–800), following the Takeat scale Title/Body/Label/Details; headings with tight tracking.",
+    "Surfaces: pure neutrals (#F6F6F6, #EDEDED, #C6C6C6, #7A7A7A, #545454, #222222) — no tinted grays; radius scale 4/8/12/16px; shadows from the elevation scale 01–05 (02 is the default).",
+    "For TEXT on white use red.500+, yellow.600+, blue.600+ — the 500 steps of yellow/blue fail 4.5:1 contrast on white."
   ]
 }
