@@ -1,6 +1,6 @@
 {
   "product": "Zorka",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Official Zorka Design System — dark-first, strong typography, Zorka red as the single brand accent.",
   "components": "https://raw.githubusercontent.com/AGothe07/zorka-uikit/main/components/uikit-ai.json",
   "tokens": {
